@@ -23,6 +23,7 @@
 		72A30A682801F1FA00DD5A4F /* CatalogueProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A30A672801F1FA00DD5A4F /* CatalogueProductsViewController.swift */; };
 		72A30A6A2801F21400DD5A4F /* CatalogueProductsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A30A692801F21400DD5A4F /* CatalogueProductsView.swift */; };
 		72A30A6C2801F24200DD5A4F /* CatalogueProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A30A6B2801F24200DD5A4F /* CatalogueProductsViewModel.swift */; };
+		72A30A6E280316DE00DD5A4F /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72A30A6D280316DE00DD5A4F /* EmptyViewController.swift */; };
 		72F491F227F83EAA006F8D95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F491F127F83EAA006F8D95 /* AppDelegate.swift */; };
 		72F491F427F83EAA006F8D95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72F491F327F83EAA006F8D95 /* SceneDelegate.swift */; };
 		72F491FB27F83EAB006F8D95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72F491FA27F83EAB006F8D95 /* Assets.xcassets */; };
@@ -108,6 +109,7 @@
 		72A30A672801F1FA00DD5A4F /* CatalogueProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueProductsViewController.swift; sourceTree = "<group>"; };
 		72A30A692801F21400DD5A4F /* CatalogueProductsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueProductsView.swift; sourceTree = "<group>"; };
 		72A30A6B2801F24200DD5A4F /* CatalogueProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogueProductsViewModel.swift; sourceTree = "<group>"; };
+		72A30A6D280316DE00DD5A4F /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 		72F491EE27F83EAA006F8D95 /* GetOutfit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOutfit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72F491F127F83EAA006F8D95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		72F491F327F83EAA006F8D95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -581,6 +583,7 @@
 			isa = PBXGroup;
 			children = (
 				72F492A127FF4F74006F8D95 /* VisualEffectView.swift */,
+				72A30A6D280316DE00DD5A4F /* EmptyViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -710,6 +713,7 @@
 				72F4928F27FC88C2006F8D95 /* NewLookGenderViewController.swift in Sources */,
 				72F4926727F9A357006F8D95 /* NavigationBarHiding.swift in Sources */,
 				72F492A727FF5274006F8D95 /* UserDataStore.swift in Sources */,
+				72A30A6E280316DE00DD5A4F /* EmptyViewController.swift in Sources */,
 				72A30A4F2801AD6800DD5A4F /* NewLookConstructorViewController.swift in Sources */,
 				72F492A427FF520F006F8D95 /* Category.swift in Sources */,
 				72F4927527FC2729006F8D95 /* ProductDetailsCoordinator.swift in Sources */,
@@ -820,7 +824,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -875,7 +879,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

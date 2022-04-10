@@ -41,8 +41,8 @@ class TabBarCoordinator: Coordinator {
       TabBarTabInfo(tabKind: .feed, viewController: feedNavigationController),
       TabBarTabInfo(tabKind: .catalogue, viewController: catalogueNavigationController),
       TabBarTabInfo(tabKind: .newLook, viewController: BaseViewController()),
-      TabBarTabInfo(tabKind: .collection, viewController: BaseViewController()),
-      TabBarTabInfo(tabKind: .profile, viewController: BaseViewController())
+      TabBarTabInfo(tabKind: .collection, viewController: EmptyViewController(title: "Гардероб")),
+      TabBarTabInfo(tabKind: .profile, viewController: EmptyViewController(title: "Профиль"))
     ]
     tabBarController.onDidRequestToMakeNewLook = { [weak self] in
       let coordinator = self?.show(NewLookCoordinator.self, animated: true)
